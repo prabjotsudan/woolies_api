@@ -1,4 +1,4 @@
-package weather;
+package weather.features;
 
 import com.intuit.karate.junit5.Karate;
 

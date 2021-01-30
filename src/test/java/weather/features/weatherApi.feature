@@ -29,6 +29,4 @@ Feature: Check temperature for coming Thursday
     * def nextThursday = day < 5 ? 5-day : 7 -day+5
     * eval if (day == 5) nextThursday = day
 
-
-    Then print response.daily[nextThursday].dt
-    And assert response.daily[nextThursday].temp.day > 10
+    Then assert response.daily[nextThursday].temp.day > 10
