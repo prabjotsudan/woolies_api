@@ -1,0 +1,8 @@
+{
+  "lat": "33.8688",
+  "lon": "151.2093",
+  "cnt": "7",
+  "units" : "metric",
+  "appid" : "3587cd96076375e8e9f891258edb349f",
+  "exclude": "current,minutely,hourly,alerts"
+}
